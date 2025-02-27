@@ -391,3 +391,14 @@ nav img {
     font-size: 1rem;
   }
 }
+
+.footer{
+  background-color: rgb(182, 115, 115);
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footer .logo img{
+  width: 25rem;
+}
