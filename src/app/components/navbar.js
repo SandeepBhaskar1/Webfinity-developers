@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <Link href="/">
-            <img src="/webfinity.png" alt="Webfinity Logo" />
+          <img src="/webfinity.png" alt="Webfinity Logo" />
         </Link>
       </div>
       <div className="elements">
