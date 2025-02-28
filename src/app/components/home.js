@@ -6,13 +6,13 @@ const Home = () => {
 
   const scrollDown = () => {
     window.scrollTo({
-      top: 1000,
+      top: 1982,
       behavior: 'smooth',
     });
   };
 
   return (
-    <div className="home">
+    <section id='hero-section' className="home">
       <div className='hero-section'>
         <div className='hero-section-right'>
           <h1 className='animated-title'>
@@ -29,7 +29,7 @@ const Home = () => {
           <img className='animated-image' src='/banner-background.jpg' alt='hero image' />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

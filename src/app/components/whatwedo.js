@@ -53,55 +53,55 @@ const WhatWeDo = () => {
     {
       title: "Custom Website Development",
       description: "We build custom websites tailored to your business needs.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/custom-website-development",
     },
     {
       title: "React Website Development",
       description: "Develop dynamic, high-performance websites with React.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/react-development",
     },
     {
       title: "E-commerce Solutions",
       description: "Create scalable and secure online stores with e-commerce solutions.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/e-commerce",
     },
     {
       title: "Digital Marketing Solutions",
       description: "Promote your business with advanced digital marketing strategies.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/digital-marketing",
     },
     {
       title: "Google Business Profile Optimization",
       description: "Optimize your Google Business Profile for maximum visibility.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/google-business-optimization",
     },
     {
       title: "Website Maintenance & Support",
       description: "Ensure your website runs smoothly with continuous support.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/website-maintenance",
     },
     {
       title: "Website Analytics & Reporting",
       description: "Track and analyze your website performance to make informed decisions.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/website-analytics",
     },
     {
       title: "API & Third-Party Integrations",
       description: "Integrate third-party APIs to enhance your website functionality.",
-      buttonText: "Learn More",
+      buttonText: "Know More",
       link: "/services/api-integrations",
     },
   ];
 
   return (
-    <div className="what-we-do">
+    <section id='what-we-do' className="what-we-do">
       <div
         className={`service-list`}
         ref={listRef}
@@ -134,7 +134,7 @@ const WhatWeDo = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
