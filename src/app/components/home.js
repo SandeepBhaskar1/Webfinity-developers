@@ -26,7 +26,7 @@ const Home = () => {
         </div>
 
         <div className='hero-section-left'>
-          <img className='animated-image' src='/banner-background.jpg' alt='hero image' />
+          <video className='animated-video' autoPlay muted loop playsInline src='/webfinity-background.mp4' alt='background' />
         </div>
       </div>
     </section>

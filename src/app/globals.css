@@ -15,7 +15,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px); 
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -98,7 +98,7 @@ nav img {
   align-items: center;
 }
 
-.hero-section-left img {
+.hero-section-left video {
   width: 100%;
   height: 100%;
   object-fit: cover; 
@@ -109,7 +109,7 @@ nav img {
 .hero-section-right {
   position: relative;
   width: 50%;
-  margin-top: 17rem;
+  margin-top: 21rem;
   color: white;
   text-align: center;
   display: flex;
